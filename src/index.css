@@ -4,9 +4,7 @@
 
 body {
   margin: 0;
-  padding: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f2f2f2;
 }
 
 nav {
@@ -15,14 +13,17 @@ nav {
   padding: 20px 36px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
+}
+
 .nav--logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  height: 80px;
-  max-height: 80px;
-  width: auto;
+  max-width: 100px;
 }
 
 section {
@@ -33,14 +34,47 @@ section {
   display: flex;
   flex-direction: column;
 }
+
 .hero--photo {
   max-width: 400px;
   align-self: center;
 }
+
 .hero--header {
   margin-bottom: 16px;
 }
 
 .hero--text {
   margin-top: 0;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card {
+  width: calc(25% - 60px);
+  /* Adjust the width to fit the number of cards you want per row */
 }
