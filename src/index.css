@@ -67,7 +67,7 @@ section {
   width: 100%;
   height: 50%;
   border-radius: 9px;
-  margin-bottom: 9px;
+  margin-bottom: 20px;
 }
 
 /* ADD */
@@ -85,7 +85,6 @@ section {
   height: 14px;
 }
 
-/* ADD */
 .card--price {
-  margin-top: auto;
+  margin-top: 5px;
 }
